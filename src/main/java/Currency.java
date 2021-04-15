@@ -125,6 +125,6 @@ public class Currency{
 
 
     public static int compare(Currency o1, Currency o2) {
-        return Double.compare(o1.value - o1.previous, o2.value - o2.previous);
+        return Double.compare(o2.value - o2.previous, o1.value - o1.previous);
     }
 }
